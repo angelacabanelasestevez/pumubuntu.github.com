@@ -8,10 +8,18 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-#header {
+#wrapper {
 	width: 960px;
-	height: 64px;
 	margin: auto;
+	background: url(images/wrapper_background.gif);
+	background-color: white;
+	box-shadow: #C2C2C2 0 2px 2px 0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#header {
+	height: 64px;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 	background-color: #DD4814;
@@ -30,6 +38,5 @@ body {
 }
 
 #content {
-	width: 960px;
-	margin: auto;
+	margin: 10px;
 }

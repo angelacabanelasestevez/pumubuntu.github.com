@@ -52,5 +52,18 @@ body {
 	border-width: 1px;
 	box-shadow: #C2C2C2 0 2px 2px 0;
 	padding: 10px;
-	text-align: center;
+	overflow: hidden;
+}
+
+.bigcontent h2 {
+	font-size: x-large;
+	padding-bottom: 20px;
+}
+
+.bigcontent p {
+	font-size: medium;
+}
+
+.bigcontent p img {
+	float: left;
 }

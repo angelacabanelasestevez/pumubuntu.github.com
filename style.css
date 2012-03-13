@@ -3,6 +3,10 @@
 	margin: 0px;
 }
 
+body {
+	background-image: url(images/body_background.png);
+}
+
 #header {
 	width: 960px;
 	height: 100px;
@@ -10,6 +14,8 @@
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	background-color: #DD4814;
+	background-image: url(images/header_background.png);
+	background-repeat: repeat-x;
 	color: white;
 }
 

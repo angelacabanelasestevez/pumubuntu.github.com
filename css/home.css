@@ -1,5 +1,6 @@
 
 .bigcontent {
+	padding: 10px;
 	background: white;
 	border-color: #F7F7F7;
 	border-radius 4px;
@@ -7,4 +8,8 @@
 	border-width: 1px;
 	box-shadow: #C2C2C2 0 2px 2px 0;
 	overflow: hidden;
+}
+
+.bigcontent img {
+	border-radius: 5px;
 }

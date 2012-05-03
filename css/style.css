@@ -8,6 +8,11 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+a, a:link, a:visited {
+	color: #DD4814;
+	text-decoration: none;
+}
+
 #wrapper {
 	width: 960px;
 	margin: auto;

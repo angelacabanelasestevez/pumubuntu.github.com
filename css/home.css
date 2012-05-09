@@ -12,4 +12,6 @@
 
 .bigcontent img {
 	border-radius: 5px;
+	padding: 7px;
+	float: left;
 }

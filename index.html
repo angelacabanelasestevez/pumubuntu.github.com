@@ -4,9 +4,12 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Pumubuntu</title>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:700,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="https://raw.github.com/coderifous/jquery-localize/master/build/jquery.localize.js" charset="utf-8"></script>
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" href="css/home.css" type="text/css" />
 		<script type="text/javascript">
+		// Begin Google Analytics.
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-24374313-3']);
 		_gaq.push(['_trackPageview']);
@@ -15,6 +18,12 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
+		// End of Google Analytics.
+		// Begin of jQuery Localize.
+		$(function(){
+			$("[rel*=localize]").localize("language", { pathPrefix: "lang" });
+		});
+		// End of jQuery Localize.
 		</script>
 	</head>
 	<body>
@@ -24,22 +33,23 @@
 			</div>
 			<div id="content">
 				<div class="bigcontent">
-					<h2>What is pumubuntu?</h2>
-					<p><img src="images/logo.png" alt="Pumubuntu logo"  width="150px" height="150px" /><br /><br />Pumubuntu is a program that helps you following the <a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a> for time management.<br /><br />It is discrete and stays in the notification bar at the right top of the screen waiting for you to activate it.</br><br />It is compatible with Unity, the new Ubuntu interface introduced in it's latest versions.</p>
+					<h2 rel="localize[index_what]">What is pumubuntu?</h2>
+					<img src="images/logo.png" alt="Pumubuntu logo"  width="150px" height="150px" />
+					<p rel="localize[index_what_txt]"><br /><br />Pumubuntu is a program that helps you following the <a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a> for time management.<br /><br />It is discrete and stays in the notification bar at the right top of the screen waiting for you to activate it.</br><br />It is compatible with Unity, the new Ubuntu interface introduced in it's latest versions.</p>
 				</div>
 				<br />
 				<div class="bigcontent">
-					<h2>Download</h2><br />
-					<p>You can download Pumubuntu v0.1 from <a href="https://github.com/downloads/Pumubuntu/Pumubuntu/pumubuntu_0.1.zip">here</a>.<br />You can also download the <a href="https://github.com/Pumubuntu/Pumubuntu/zipball/master">latest source files</a> from our repository.<br />If you are interested in developing or modifying Pumubuntu sources you can see our <a href="https://github.com/Pumubuntu/Pumubuntu">GitHub page</a> or clone our project with git. Please, if you modify our program, notify us and we will probably merge your changes.</p>
+					<h2 rel="localize[index_download]">Download</h2><br />
+					<p rel="localize[index_download_txt]">You can download Pumubuntu v0.1 from <a href="https://github.com/downloads/Pumubuntu/Pumubuntu/pumubuntu_0.1.zip">here</a>.<br />You can also download the <a href="https://github.com/Pumubuntu/Pumubuntu/zipball/master">latest source files</a> from our repository.<br />If you are interested in developing or modifying Pumubuntu sources you can see our <a href="https://github.com/Pumubuntu/Pumubuntu">GitHub page</a> or clone our project with git. Please, if you modify our program, notify us and we will probably merge your changes.</p>
 				</div>
 				<br />
 				<div class="bigcontent">
-					<h2>Authors</h2><br />
-					<p>Antonio V&aacute;zquez Blanco is the author of the project but it was really coded by various contributors that helped the project grow.<br/>The project is currently maintained by Antonio V&aacute;zquez and Emilio Moretti.<br />You can contact us by our email: <a href="mailto:pumubuntu@gmail.com?subject=feedback">pumubuntu@gmail.com</a>.</p>
+					<h2 rel="localize[index_about]">Authors</h2><br />
+					<p rel="localize[index_about_txt]">Antonio V&aacute;zquez Blanco is the author of the project but it was really coded by various contributors that helped the project grow.<br/>The project is currently maintained by Antonio V&aacute;zquez and Emilio Moretti.<br />You can contact us by our email: <a href="mailto:pumubuntu@gmail.com?subject=feedback">pumubuntu@gmail.com</a>.</p>
 				</div>
 				<br />
 				<div class="bigcontent">
-					<!-- Begin: adBrite, Generated: 2012-05-26 4:53:55  -->
+					<!-- Begin adBrite -->
 					<script type="text/javascript">
 					var AdBrite_Title_Color = 'DD4810';
 					var AdBrite_Text_Color = '000000';
@@ -58,7 +68,7 @@
 							<img src="http://files.adbrite.com/mb/images/adbrite-your-ad-here-leaderboard.gif" style="background-color:#FFFFFF;border:none;padding:0;margin:0;" alt="Your Ad Here" width="14" height="90" border="0" />
 						</a>
 					</span>
-					<!-- End: adBrite -->
+					<!-- End adBrite -->
 				</div>
 			</div>
 		</div>

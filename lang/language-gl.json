@@ -1,0 +1,8 @@
+{
+	"index_what":"¿Qué é pumubuntu?",
+	"index_what_txt":"<br /><br />Pumubuntu é un programa que che axuda a seguir o <a href='http://www.pomodorotechnique.com/'>método Pomodoro</a> para xestionar o teu tempo.<br /><br />E discreto e permanece na barra de notificacións á dereita e arriba na túa pantalla esperando a que o actives.</br><br />É compatible con Unity, a nova interfaz introducida nas últimas versións de Ubuntu.",
+	"index_download":"Descargas",
+	"index_download_txt":"Podes descargar Pumubuntu v0.1 <a href='https://github.com/downloads/Pumubuntu/Pumubuntu/pumubuntu_0.1.zip'>aquí</a>.<br />Tamén podes descargar <a href='https://github.com/Pumubuntu/Pumubuntu/zipball/master'>o último código fonte</a> desde o noso repositorio.<br />Se estás interesado en desarrollar ou modificar Pumubuntu, podes botarlle un ollo á <a href='https://github.com/Pumubuntu/Pumubuntu'>páxina de Github</a> ou clonar o noso proxecto con git. Por favor, se modificas o noso programa, notificanolo e probrablemente incluamos os teus cambios.",
+	"index_about":"Acerca de",
+	"index_about_txt":"Antonio Vázquez Blanco é o autor do proxecto pero a maior parte do código é fruto da colaboración de varios contribuidores que axudaron a que o proxecto medrase.<br/>O proxecto está actualmente mantido por Antonio Vázquez e Emilio Moretti.<br />Podes contactar con nós a través do noso email: <a href='mailto:pumubuntu@gmail.com?subject=feedback'>pumubuntu@gmail.com</a>."
+}

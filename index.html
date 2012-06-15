@@ -19,11 +19,17 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 		// End of Google Analytics.
-		// Begin of jQuery Localize.
 		$(function(){
+			// Begin of jQuery Localize.
 			$("[rel*=localize]").localize("language", { pathPrefix: "lang" });
+			// End of jQuery Localize.
+			// Begin of download setting.
+			$.getJSON("https://api.github.com/repos/Pumubuntu/Pumubuntu/downloads?callback=?", function(data){
+				$("#download_link").href = data.data[0].html_url;
+				$("#download_link").html(data.data[0].description);
+			});
+			// End of download setting.
 		});
-		// End of jQuery Localize.
 		</script>
 	</head>
 	<body>
@@ -40,7 +46,8 @@
 				<br />
 				<div class="bigcontent">
 					<h2 rel="localize[index_download]">Download</h2><br />
-					<p rel="localize[index_download_txt]">You can download Pumubuntu v0.1 from <a href="https://github.com/downloads/Pumubuntu/Pumubuntu/pumubuntu_0.1.zip">here</a>.<br />You can also download the <a href="https://github.com/Pumubuntu/Pumubuntu/zipball/master">latest source files</a> from our repository.<br />If you are interested in developing or modifying Pumubuntu sources you can see our <a href="https://github.com/Pumubuntu/Pumubuntu">GitHub page</a> or clone our project with git. Please, if you modify our program, notify us and we will probably merge your changes.</p>
+					<a id="download_link"></a>
+					<p rel="localize[index_download_txt]"><br />You can also download the <a href="https://github.com/Pumubuntu/Pumubuntu/zipball/master">latest source files</a> from our repository.<br />If you are interested in developing or modifying Pumubuntu sources you can see our <a href="https://github.com/Pumubuntu/Pumubuntu">GitHub page</a> or clone our project with git. Please, if you modify our program, notify us and we will probably merge your changes.</p>
 				</div>
 				<br />
 				<div class="bigcontent">

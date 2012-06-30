@@ -9,7 +9,7 @@
 		<script type="text/javascript" src="js/jquery.min.js" charset="utf-8"></script>
 		<script type="text/javascript" src="js/jquery.localize.js" charset="utf-8"></script>
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<link rel="stylesheet" href="css/home.css" type="text/css" />
+		<link rel="stylesheet" href="css/index.css" type="text/css" />
 		<script type="text/javascript">
 		// Begin Google Analytics.
 		var _gaq = _gaq || [];
@@ -23,7 +23,7 @@
 		// End of Google Analytics.
 		$(function(){
 			// Begin of jQuery Localize.
-			$("[rel*=localize]").localize("language", { pathPrefix: "lang" });
+			$("[rel*=localize]").localize("index", { pathPrefix: "lang" });
 			// End of jQuery Localize.
 			// Begin of download setting.
 			$.getJSON("https://api.github.com/repos/Pumubuntu/Pumubuntu/downloads?callback=?", function(data){

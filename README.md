@@ -1,5 +1,5 @@
-README:
-=======
+Pumubuntu webpage
+=================
 
 Pumubuntu project page. You can see it at http://pumubuntu.github.com/ where you can find more about Pumubuntu project.
 
